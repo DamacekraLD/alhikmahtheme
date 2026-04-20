@@ -32,8 +32,7 @@
                     </div>
                     <h4 class="text-3xl font-bold uppercase tracking-widest">Visi</h4>
                     <p class="text-2xl font-medium leading-relaxed italic">
-                        "Menjadi pusat unggulan pendidikan Islam integratif tingkat nasional yang melahirkan generasi
-                        Qur'ani, mandiri, dan berwawasan global pada tahun 2030."
+                        "Mencetak Da'i berwawasan Ilmu Pengetahuan dan Teknologi berkarakter Robbani."
                     </p>
                 </div>
             </div>
@@ -53,26 +52,17 @@
                     <li class="flex items-start space-x-4 group">
                         <span
                             class="bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 font-bold text-sm">1</span>
-                        <p class="text-gray-700 leading-relaxed">Menyelenggarakan sistem pendidikan kepesantrenan yang
-                            berbasis pada Al-Qur'an dan As-Sunnah.</p>
+                        <p class="text-gray-700 leading-relaxed">Mendidik Santri untuk memahami islam secara Integral dan Universal dalam Lingkungan Pesantren yang Nyaman</p>
                     </li>
                     <li class="flex items-start space-x-4 group">
                         <span
                             class="bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 font-bold text-sm">2</span>
-                        <p class="text-gray-700 leading-relaxed">Membekali santri dengan penguasaan bahasa Arab dan
-                            Inggris secara aktif sebagai alat komunikasi global.</p>
+                        <p class="text-gray-700 leading-relaxed">Menjadikan Pesantren sebagai Sentra Kaderisasi Da'i Berakhlaq Al Qur'an</p>
                     </li>
                     <li class="flex items-start space-x-4 group">
                         <span
                             class="bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 font-bold text-sm">3</span>
-                        <p class="text-gray-700 leading-relaxed">Mengembangkan kurikulum akademik yang kompetitif untuk
-                            menunjang studi lanjut ke perguruan tinggi terbaik.</p>
-                    </li>
-                    <li class="flex items-start space-x-4 group">
-                        <span
-                            class="bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 font-bold text-sm">4</span>
-                        <p class="text-gray-700 leading-relaxed">Membentuk pribadi santri yang beradab, disiplin, dan
-                            memiliki jiwa kewirausahaan (entrepreneurship).</p>
+                        <p class="text-gray-700 leading-relaxed">Membentuk Kader Pemimpin yang Jujur, Cerdas, Mandiri, dan Kreatif</p>
                     </li>
                 </ul>
             </div>
