@@ -1,0 +1,52 @@
+/*
+Theme Name: Al Hikmah Theme
+Theme URI: http://example.com/alhikmah
+Author: Akhyar Mubarok
+Author URI: http://example.com
+Description: A simple and elegant theme for the Al Hikmah website.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alhikmah
+*/
+
+/* Add additional CSS here or enqueue a compiled file in functions.php */
+
+#mobile-menu {
+    background: #ffffff;
+}
+
+#mobile-menu .mobile-dropdown-toggle {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 0.85rem 0;
+    color: #1f2937;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mobile-menu .mobile-dropdown-toggle span:last-child {
+    display: inline-flex;
+    width: 1.5rem;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+#mobile-menu .mobile-dropdown {
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+#mobile-menu .mobile-dropdown.hidden {
+    display: none;
+}
+
+#mobile-menu .mobile-dropdown a {
+    display: block;
+    padding-left: 1.25rem;
+    color: #4b5563;
+    font-weight: 500;
+}
