@@ -21,10 +21,10 @@
                         class="bg-primary text-white text-center px-8 py-4 rounded-xl font-bold shadow-xl shadow-green-900/20 hover:scale-105 transition-transform">
                         Pendaftaran Santri Baru
                     </button>
-                    <button onclick="openChatWithPrompt('Bantu saya memilih program yang cocok untuk anak saya')"
+                    <!-- <button onclick="openChatWithPrompt('Bantu saya memilih program yang cocok untuk anak saya')"
                         class="flex items-center justify-center space-x-2 text-primary font-bold border-2 border-primary/20 px-8 py-4 rounded-xl hover:bg-green-50 transition-all">
                         <span>Cek Rekomendasi Program</span>
-                    </button>
+                    </button> -->
                 </div>
             </div>
 
@@ -59,48 +59,56 @@
             <h3 class="text-primary font-bold uppercase tracking-widest text-sm">Program Kami</h3>
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Fokus Pendidikan Terbaik</h2>
         </div>
-        <div class="grid md:grid-cols-3 gap-10">
-            <div
-                class="bg-white p-10 rounded-[40px] border border-gray-100 hover:border-primary/20 transition-all duration-300 hover:shadow-2xl hover:shadow-green-900/10 group flex flex-col items-center text-center">
-                <div
-                    class="w-20 h-20 bg-green-50 text-primary rounded-[28px] flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-green-50 transition-all duration-300 transform group-hover:scale-110 shadow-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+        
+        <div class="flex flex-wrap justify-center gap-6">
+            <div class="w-full md:w-[calc(33.333%-1.25rem)] bg-white p-10 rounded-[40px] border border-gray-100 hover:border-primary/20 transition-all duration-300 hover:shadow-2xl hover:shadow-green-900/10 group flex flex-col items-center text-center">
+                <div class="w-20 h-20 bg-green-50 text-primary rounded-[28px] flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-green-50 transition-all duration-300 transform group-hover:scale-110 shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                     </svg>
                 </div>
-                <h4 class="text-2xl font-bold mb-4 text-gray-900">Tahfidzul Qur'an</h4>
-                <p class="text-gray-600 leading-relaxed text-base">Program intensif menghafal Al-Qur'an 30 Juz dengan
-                    metode mutqin dan sanad.</p>
+                <h4 class="text-2xl font-bold mb-4 text-gray-900">Tahfizhul Qur'an</h4>
+                <p class="text-gray-600 leading-relaxed text-base">Dibimbing langsung oleh Lembaga Tahfizhul Qur'an (LTQ) Al Hikmah Boyolali dengan Target Capaian 7 Juz Mutqin untuk jenjang SMA.</p>
             </div>
-            <div
-                class="bg-white p-10 rounded-[40px] border border-gray-100 hover:border-primary/20 transition-all duration-300 hover:shadow-2xl hover:shadow-green-900/10 group flex flex-col items-center text-center">
-                <div
-                    class="w-20 h-20 bg-green-50 text-primary rounded-[28px] flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-green-50 transition-all duration-300 transform group-hover:scale-110 shadow-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+
+            <div class="w-full md:w-[calc(33.333%-1.25rem)] bg-white p-10 rounded-[40px] border border-gray-100 hover:border-primary/20 transition-all duration-300 hover:shadow-2xl hover:shadow-green-900/10 group flex flex-col items-center text-center">
+                <div class="w-20 h-20 bg-green-50 text-primary rounded-[28px] flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-green-50 transition-all duration-300 transform group-hover:scale-110 shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
                 </div>
-                <h4 class="text-2xl font-bold mb-4 text-gray-900">Kajian Kitab Kuning</h4>
-                <p class="text-gray-600 leading-relaxed text-base">Pendalaman khazanah Islam klasik meliputi Fiqih,
-                    Akidah, Akhlak, dan Nahwu Shorof.</p>
+                <h4 class="text-2xl font-bold mb-4 text-gray-900">Bina Pribadi Islami (BPI)</h4>
+                <p class="text-gray-600 leading-relaxed text-base">Program Pendampingan Pekanan dalam rangka penguatan dan pengembangan karakter Islami pada siswa.</p>
             </div>
-            <div
-                class="bg-white p-10 rounded-[40px] border border-gray-100 hover:border-primary/20 transition-all duration-300 hover:shadow-2xl hover:shadow-green-900/10 group flex flex-col items-center text-center">
-                <div
-                    class="w-20 h-20 bg-green-50 text-primary rounded-[28px] flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-green-50 transition-all duration-300 transform group-hover:scale-110 shadow-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+
+            <div class="w-full md:w-[calc(33.333%-1.25rem)] bg-white p-10 rounded-[40px] border border-gray-100 hover:border-primary/20 transition-all duration-300 hover:shadow-2xl hover:shadow-green-900/10 group flex flex-col items-center text-center">
+                <div class="w-20 h-20 bg-green-50 text-primary rounded-[28px] flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-green-50 transition-all duration-300 transform group-hover:scale-110 shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 3c.132 0 .263 0 .393.007a9 9 0 0 0 11.232 11.232A9 9 0 1 1 12 3zm7.5 1.5l1.06 2.44 2.44 1.06-2.44 1.06L19.5 11.5l-1.06-2.44-2.44-1.06 2.44-1.06L19.5 4.5z" />
                     </svg>
                 </div>
-                <h4 class="text-2xl font-bold mb-4 text-gray-900">Bahasa Arab & Inggris</h4>
-                <p class="text-gray-600 leading-relaxed text-base">Penguasaan bahasa asing secara aktif sebagai sarana
-                    dakwah global dan akademik.</p>
+                <h4 class="text-2xl font-bold mb-4 text-gray-900">Pembiasaan Ibadah</h4>
+                <p class="text-gray-600 leading-relaxed text-base">Pembersamaan ibadah sholat wajib/sunah, puasa wajib/sunah, infaq, dan penanaman karakter islami.</p>
+            </div>
+
+            <div class="w-full md:w-[calc(33.333%-1.25rem)] bg-white p-10 rounded-[40px] border border-gray-100 hover:border-primary/20 transition-all duration-300 hover:shadow-2xl hover:shadow-green-900/10 group flex flex-col items-center text-center">
+                <div class="w-20 h-20 bg-green-50 text-primary rounded-[28px] flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-green-50 transition-all duration-300 transform group-hover:scale-110 shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.364-6.364l-.707-.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M12 7a5 5 0 015 5 5 5 0 01-5 5 5 5 0 01-5-5 5 5 0 015-5z" />
+                    </svg>
+                </div>
+                <h4 class="text-2xl font-bold mb-4 text-gray-900">Pendampingan UTBK</h4>
+                <p class="text-gray-600 leading-relaxed text-base">Kerjasama dengan platform pembelajaran online untuk menyukseskan program seleksi masuk perguruan tinggi.</p>
+            </div>
+
+            <div class="w-full md:w-[calc(33.333%-1.25rem)] bg-white p-10 rounded-[40px] border border-gray-100 hover:border-primary/20 transition-all duration-300 hover:shadow-2xl hover:shadow-green-900/10 group flex flex-col items-center text-center">
+                <div class="w-20 h-20 bg-green-50 text-primary rounded-[28px] flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-green-50 transition-all duration-300 transform group-hover:scale-110 shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                </div>
+                <h4 class="text-2xl font-bold mb-4 text-gray-900">Kepemimpinan & Minat Bakat</h4>
+                <p class="text-gray-600 leading-relaxed text-base">Mewujudkan profil Imamul Muttaqin melalui ekstrakurikuler, pembinaan organisasi, dan program pendukung lainnya.</p>
             </div>
         </div>
     </section>
@@ -111,14 +119,14 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0 relative">
                 <div class="flex flex-col items-center text-center px-4 relative">
                     <div class="text-4xl md:text-5xl font-extrabold text-primary flex items-center mb-3">
-                        <span class="count-up" data-target="50">0</span><span class="ml-1">+</span>
+                        <span class="count-up" data-target="100">0</span><span class="ml-1">+</span>
                     </div>
                     <p class="text-gray-500 font-bold uppercase tracking-widest text-sm">Total Pegawai</p>
                 </div>
                 <div class="hidden md:block absolute left-1/3 top-0 bottom-0 w-px bg-gray-100"></div>
                 <div class="flex flex-col items-center text-center px-4 relative">
                     <div class="text-4xl md:text-5xl font-extrabold text-primary flex items-center mb-3">
-                        <span class="count-up" data-target="200">0</span><span class="ml-1">+</span>
+                        <span class="count-up" data-target="300">0</span><span class="ml-1">+</span>
                     </div>
                     <p class="text-gray-500 font-bold uppercase tracking-widest text-sm">Total Santri Aktif</p>
                 </div>
@@ -249,7 +257,7 @@
         <?php if ($query->have_posts()): while ($query->have_posts()): $query->the_post(); ?>
 
             <article onclick="window.location.href='<?php the_permalink(); ?>'" 
-                     class="group cursor-pointer p-6 rounded-2xl border border-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 bg-gray-50">
+                     class="group cursor-pointer p-6 rounded-2xl border border-gray-300 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 bg-gray-50">
 
                 <!-- Tanggal -->
                 <p class="text-gray-400 text-xs font-medium uppercase tracking-wider mb-2">
@@ -269,7 +277,7 @@
                 <!-- Read more -->
                 <div class="mt-4 text-primary text-sm font-semibold flex items-center gap-1">
                     <span>Baca Selengkapnya</span>
-                    <span class="transform px-2 group-hover:translate-x-1 transition">→</span>
+                    <span class="transform px-1 group-hover:translate-x-1 transition">→</span>
                 </div>
 
             </article>
@@ -336,7 +344,7 @@
     <section class="py-24 bg-green-50/30" id="psb">
         <div class="section-container mx-auto px-6">
             <div class="text-center mb-16 space-y-4">
-                <h3 class="text-primary font-bold uppercase tracking-widest text-sm">Pendaftaran TA. 2025/2026</h3>
+                <h3 class="text-primary font-bold uppercase tracking-widest text-sm">Pendaftaran TA. 2026/2027</h3>
                 <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">Mari Bergabung Menjadi <br>
                     <span class="text-primary italic">Generasi Qurani</span></h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">Kami membuka kesempatan bagi putra-putri terbaik untuk
@@ -436,49 +444,129 @@
                             </div>
                         </div>
                     </div>
+
+                    <div>
+                        <h4 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                            <span
+                                class="w-8 h-8 bg-primary text-white rounded-lg flex items-center justify-center mr-3 text-sm">3</span>
+                            Tersedia Beasiswa
+                        </h4>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <svg class="h-6 w-6 text-primary mr-3 shrink-0" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span class="text-gray-700">Beasiswa Prestasi</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-6 w-6 text-primary mr-3 shrink-0" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span class="text-gray-700">Beasiswa Yatim</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-6 w-6 text-primary mr-3 shrink-0" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span class="text-gray-700">Beasiswa Tahfidz</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-8 p-6 bg-blue-50 rounded-[25px] border border-blue-100 relative overflow-hidden group">
+                        <div class="absolute -right-4 -bottom-4 opacity-10 group-hover:rotate-12 transition-transform duration-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-24 h-24 text-blue-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 10h18M7 15h1m4 0h1m4 0h1m-7 4h12a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+
+                        <div class="relative z-10">
+                            <div class="flex items-center mb-4">
+                                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center mr-3 shadow-lg shadow-blue-200">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h5 class="text-sm font-bold text-blue-900 uppercase tracking-widest">Metode Pembayaran</h5>
+                                    <p class="text-base text-blue-600 font-medium">Bank Jateng Syariah</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-white/60 backdrop-blur-sm p-4 rounded-2xl border border-white/50">
+                                <p class="text-2xl font-black text-gray-900 tracking-wider mb-1">6091000170</p>
+                                <div class="flex justify-between items-center">
+                                    <p class="text-[11px] font-bold text-gray-500 uppercase italic">an: PSB Al Hikmah Boyolali</p>
+                                    <span class="text-[9px] bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full font-bold">Kantor Cabang Boyolali</span>
+                                </div>
+                            </div>
+
+                            <p class="mt-3 text-sm text-blue-800 leading-relaxed italic">
+                                <strong>Penting:</strong> Mohon lampirkan bukti transfer kepada admin pendaftaran untuk verifikasi data otomatis.
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Pricing Table -->
                 <div class="bg-white rounded-[40px] shadow-2xl border border-gray-100 overflow-hidden relative">
                     <div class="bg-primary p-8 text-white">
                         <h4 class="text-2xl font-bold mb-2">Estimasi Biaya Masuk</h4>
-                        <p class="text-green-100/80 text-sm">Tahun Ajaran 2025/2026 (Putra/Putri)</p>
+                        <p class="text-green-100/80 text-sm">Tahun Ajaran 2026/2027</p>
                     </div>
                     <div class="p-8">
-                        <table class="w-full text-left">
-                            <thead class="border-b border-gray-100">
-                                <tr>
-                                    <th class="py-4 font-bold text-gray-900">Uraian Biaya</th>
-                                    <th class="py-4 font-bold text-gray-900 text-right">Nominal</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-gray-50">
-                                <tr>
-                                    <td class="py-4 text-gray-600">Pendaftaran & Tes Seleksi</td>
-                                    <td class="py-4 font-semibold text-gray-900 text-right">Rp 350.000</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-4 text-gray-600">Uang Pangkal / Infaq Bangunan</td>
-                                    <td class="py-4 font-semibold text-gray-900 text-right">Rp 4.500.000</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-4 text-gray-600">Seragam (5 Set) & Atribut</td>
-                                    <td class="py-4 font-semibold text-gray-900 text-right">Rp 1.800.000</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-4 text-gray-600">Kegiatan Santri (1 Tahun)</td>
-                                    <td class="py-4 font-semibold text-gray-900 text-right">Rp 1.200.000</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-4 text-gray-600">Kitab & Buku Paket</td>
-                                    <td class="py-4 font-semibold text-gray-900 text-right">Rp 850.000</td>
-                                </tr>
-                                <tr class="bg-green-50/50">
-                                    <td class="py-4 pl-4 font-bold text-primary">Syahriah (SPP Bulanan)</td>
-                                    <td class="py-4 pr-4 font-bold text-primary text-right">Rp 1.100.000</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div>
+                            <table class="w-full text-left">
+                                <thead class="border-b border-gray-100">
+                                    <tr>
+                                        <th class="py-4 font-bold text-gray-900">Uraian Biaya</th>
+                                        <th class="py-4 font-bold text-gray-900 text-right">Nominal</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-gray-50">
+                                    <tr>
+                                        <td class="py-4 text-gray-600">Pendaftaran & Tes Seleksi</td>
+                                        <td class="py-4 font-semibold text-gray-900 text-right">Rp 300.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-4 text-gray-600">BOPS</td>
+                                        <td class="py-4 font-semibold text-gray-900 text-right">Rp 2.300.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-4 text-gray-600">Seragam</td>
+                                        <td class="py-4 text-gray-900 text-right">
+                                            <div class="space-y-1 text-sm">
+                                                <div>Putra: Rp 1.650.000</div>
+                                                <div>Putri: Rp 2.050.000</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-4 text-gray-600">SPI Pilihan</td>
+                                        <td class="py-4 text-gray-900 text-right">
+                                            <div class="space-y-1 text-sm">
+                                                <div>A. Rp 10.000.000</div>
+                                                <div>B. Rp 8.500.000</div>
+                                                <div>C. Rp 7.000.000</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="bg-green-50/50">
+                                        <td class="py-4 pl-4 font-bold text-primary">Syahriah (SPP Bulanan)</td>
+                                        <td class="py-4 pr-4 font-bold text-primary text-right">Rp 1.400.000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="mt-6 text-sm text-gray-600">
+                            <p>Disediakan Program Beasiswa LAZ senilai maksimal Rp 400.000 per bulan.</p>
+                            <p class="mt-1">*Syarat ketentuan berlaku.</p>
+                        </div>
                         <div class="mt-10 p-6 bg-yellow-50 rounded-2xl border border-yellow-100">
                             <div class="flex">
                                 <svg class="h-6 w-6 text-yellow-600 mr-3 shrink-0" fill="none" viewBox="0 0 24 24"
@@ -488,15 +576,14 @@
                                 </svg>
                                 <p class="text-xs text-yellow-800 leading-relaxed">
                                     <strong>Catatan:</strong> Biaya syahriah mencakup makan 3x sehari, asrama, laundry,
-                                    dan biaya operasional pendidikan. Info beasiswa tersedia bagi santri
-                                    berprestasi/yatim.
+                                    dan biaya operasional pendidikan.
                                 </p>
                             </div>
                         </div>
                         <div class="mt-8">
-                            <a href="http://wpalhikmah.test/wp-content/uploads/2026/04/SEMNASA24-PERANCANGAN-SISTEM-PEMESANAN-KANTIN-IBU-ELIS-BERBASIS-MOBILE.pdf"
+                            <a href="https://alhikmahboyolali.com/wp-content/uploads/2026/04/FLYER-PSB-2026_compressed.pdf" target="_blank"
                                 class="block w-full text-center bg-primary text-white font-bold py-4 rounded-2xl shadow-xl shadow-green-900/20 hover:bg-green-900 transition-all hover:scale-[1.02]">
-                                Unduh Brosur Lengkap (PDF)
+                                Lihat Brosur Lengkap
                             </a>
                         </div>
                     </div>
