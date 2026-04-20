@@ -52,7 +52,7 @@
             </div>
         </div>
 
-        <!-- Legalitas Section -->
+        <!-- Legalitas Section
         <div class="bg-primary rounded-[40px] p-10 md:p-16 text-white mb-24 relative overflow-hidden">
             <div class="absolute top-0 right-0 opacity-10 transform translate-x-20 -translate-y-20">
                 <svg class="w-96 h-96" fill="currentColor" viewBox="0 0 24 24">
@@ -68,25 +68,31 @@
                     </p>
                     <div class="space-y-4">
                         <div class="flex items-center space-x-4 bg-white/10 p-4 rounded-2xl border border-white/20">
-                            <div class="bg-white/20 p-2 rounded-lg">📄</div>
+                            <div class="bg-white/20 p-2 rounded-lg">
+                                <i class="bi bi-envelope-paper-fill"></i>
+                            </div>
                             <div>
                                 <p class="text-xs font-bold uppercase tracking-widest text-green-300">Akta Notaris</p>
                                 <p class="font-medium text-sm">No. 12/AHU-09.05/2005</p>
                             </div>
                         </div>
                         <div class="flex items-center space-x-4 bg-white/10 p-4 rounded-2xl border border-white/20">
-                            <div class="bg-white/20 p-2 rounded-lg">🏛️</div>
+                            <div class="bg-white/20 p-2 rounded-lg">
+                                <i class="bi bi-building"></i>
+                            </div>
                             <div>
                                 <p class="text-xs font-bold uppercase tracking-widest text-green-300">SK Kemenkumham</p>
                                 <p class="font-medium text-sm">No. AHU-456.AH.01.04.Tahun 2005</p>
                             </div>
                         </div>
                         <div class="flex items-center space-x-4 bg-white/10 p-4 rounded-2xl border border-white/20">
-                            <div class="bg-white/20 p-2 rounded-lg">🏷️</div>
+                            <div class="bg-white/20 p-2 rounded-lg">
+                                <i class="bi bi-card-checklist"></i>
+                            </div>
                             <div>
                                 <p class="text-xs font-bold uppercase tracking-widest text-green-300">Izin Operasional
                                     Kemendag</p>
-                                <p class="font-medium text-sm">No. 11.23.1.04.09.001</p>
+                                <p class="font-medium text-sm">No. 510033090116</p>
                             </div>
                         </div>
                     </div>
@@ -99,7 +105,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Sambutan Ketua -->
         <div class="flex flex-col md:flex-row gap-12 items-center">
