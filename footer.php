@@ -15,26 +15,21 @@
                         integrasi ilmu agama dan umum.
                     </p>
                     <div class="flex space-x-4">
-                        <a href="#"
+                        <a href="https://www.instagram.com/ppitalhikmahboyolali/" target="_blank"
                             class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path
-                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z" />
-                            </svg>
+                            <i class="bi bi-instagram"></i>
                         </a>
-                        <a href="#"
+                        <a href="https://www.facebook.com/ppitalhikmah" target="_blank"
                             class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path
-                                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
-                            </svg>
+                            <i class="bi bi-facebook"></i>
                         </a>
-                        <a href="#"
+                        <a href="https://www.tiktok.com/@ppitalhikmahboyolali" target="_blank"
                             class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path
-                                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                            </svg>
+                            <i class="bi bi-tiktok"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@alhikmahtvboyolali" target="_blank"
+                            class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
+                            <i class="bi bi-youtube"></i>
                         </a>
                     </div>
                 </div>
@@ -97,16 +92,12 @@
 
                 <!-- Kolom 4: Kontak Info -->
                 <div class="space-y-4">
-                    <h4 class="font-bold text-lg mb-2 border-b border-white/10 pb-4 inline-block">Hubungi Kami</h4>
+                    <h4 class="font-bold text-lg mb-6 border-b border-white/10 pb-4 inline-block">Hubungi Kami</h4>
                     <div class="text-sm text-green-50/70 space-y-4">
                         <div class="flex items-start space-x-3">
                             <i class="bi bi-geo-alt-fill"></i>
                             <p>Jl. Sawungrono Trayon, Kebonan, Karanggede, Dusun I, Kebonan, Boyolali, Kabupaten
                                 Boyolali, Jawa Tengah 57381</p>
-                        </div>
-                        <div class="flex items-center space-x-3">
-                            <i class="bi bi-telephone-fill"></i>
-                            <p>+62 812-3456-7890</p>
                         </div>
                         <div class="flex items-center space-x-3">
                             <i class="bi bi-envelope-at-fill"></i>
